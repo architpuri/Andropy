@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: aptechnolo.andropy
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Archit
+Implementation-Vendor-Id: aptechnolo.andropy
+Build-Jdk: 1.8.0_201
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/aptechnolo.andropy
+Created-By: Maven Integration for Eclipse
+

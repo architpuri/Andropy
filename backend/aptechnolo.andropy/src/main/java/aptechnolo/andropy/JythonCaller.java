@@ -34,7 +34,14 @@ public class JythonCaller {
         PyObject divider = dividerDef.__call__();
         PyObject pyObject = divider.invoke("divide",new PyInteger(20),new PyInteger(4));
         return pyObject.toString();
-        
+    }
+    //Call Any Method from Controller
+    public String invokeClass(String path) {
+        pythonInterpreter.exec("from divider import Divider");
+        PyClass dividerDef = (PyClass) pythonInterpreter.get("Divider");
+        PyObject divider = dividerDef.__call__();
+        PyObject pyObject = divider.invoke("process",new PyString(path));
+        return pyObject.toString();
     }
 
 

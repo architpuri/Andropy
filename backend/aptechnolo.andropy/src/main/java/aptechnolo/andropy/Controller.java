@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
 
-	@GetMapping(path = "/api/run")
-	public String runCode() {
+	@PostMapping(path = "/api/run")
+	public String runCode(@RequestParam("attachedMedia") MultipartFile attachedMedia) {
 		try {
 			JythonCaller caller = new JythonCaller();
 			System.out.println("Chl Gya");

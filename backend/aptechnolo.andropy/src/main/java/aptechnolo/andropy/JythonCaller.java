@@ -4,13 +4,12 @@
  * on Nov 13, 2019
  */
 package aptechnolo.andropy;
-
 import org.python.core.PyClass;
+import org.python.core.PyFile;
 import org.python.core.PyInteger;
 import org.python.core.PyObject;
-import org.python.core.PyObjectDerived;
+import org.python.core.PyString;
 import org.python.util.PythonInterpreter;
-import org.springframework.stereotype.Component;
 
 import java.io.InputStream;
 

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Andropy</string>
+    <string name="uploadImages">Upload Image</string>
+    <string name="loading">Loading ...</string>
+</resources>
